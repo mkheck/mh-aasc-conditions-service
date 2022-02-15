@@ -37,7 +37,7 @@ class ConditionsController {
 
     @GetMapping
     String greeting() {
-        return "Greetings DEVDAY!!!";
+        return "Greetings and salutations!";
     }
 
     @GetMapping("/summary")
